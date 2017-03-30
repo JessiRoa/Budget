@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.slim.min.map" Url="Scripts/jquery-3.1.1.slim.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.slim.min.js" Url="Scripts/jquery-3.1.1.slim.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.slim.js" Url="Scripts/jquery-3.1.1.slim.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.min.map" Url="Scripts/jquery-3.1.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.min.js" Url="Scripts/jquery-3.1.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.js" Url="Scripts/jquery-3.1.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.intellisense.js" Url="Scripts/jquery-3.1.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\materialize\materialize.min.js" Url="Scripts/materialize/materialize.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\materialize\materialize.js" Url="Scripts/materialize/materialize.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment.min.js" Url="Scripts/moment.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment.js" Url="Scripts/moment.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment-with-locales.min.js" Url="Scripts/moment-with-locales.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment-with-locales.js" Url="Scripts/moment-with-locales.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.min.js" Url="Scripts/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.js" Url="Scripts/bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap-dialog.js" Url="Scripts/bootstrap-dialog.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

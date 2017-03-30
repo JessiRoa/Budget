@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Thin.woff2" Url="Content/materialize/font/roboto/Roboto-Thin.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Thin.woff" Url="Content/materialize/font/roboto/Roboto-Thin.woff" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Thin.ttf" Url="Content/materialize/font/roboto/Roboto-Thin.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Thin.eot" Url="Content/materialize/font/roboto/Roboto-Thin.eot" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Regular.woff2" Url="Content/materialize/font/roboto/Roboto-Regular.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Regular.woff" Url="Content/materialize/font/roboto/Roboto-Regular.woff" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Regular.ttf" Url="Content/materialize/font/roboto/Roboto-Regular.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Regular.eot" Url="Content/materialize/font/roboto/Roboto-Regular.eot" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Medium.woff2" Url="Content/materialize/font/roboto/Roboto-Medium.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Medium.woff" Url="Content/materialize/font/roboto/Roboto-Medium.woff" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Medium.ttf" Url="Content/materialize/font/roboto/Roboto-Medium.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Medium.eot" Url="Content/materialize/font/roboto/Roboto-Medium.eot" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Light.woff2" Url="Content/materialize/font/roboto/Roboto-Light.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Light.woff" Url="Content/materialize/font/roboto/Roboto-Light.woff" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Light.ttf" Url="Content/materialize/font/roboto/Roboto-Light.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Light.eot" Url="Content/materialize/font/roboto/Roboto-Light.eot" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Bold.woff2" Url="Content/materialize/font/roboto/Roboto-Bold.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Bold.woff" Url="Content/materialize/font/roboto/Roboto-Bold.woff" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Bold.ttf" Url="Content/materialize/font/roboto/Roboto-Bold.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\roboto\Roboto-Bold.eot" Url="Content/materialize/font/roboto/Roboto-Bold.eot" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\material-design-icons\Material-Design-Icons.woff2" Url="Content/materialize/font/material-design-icons/Material-Design-Icons.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\material-design-icons\Material-Design-Icons.woff" Url="Content/materialize/font/material-design-icons/Material-Design-Icons.woff" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\material-design-icons\Material-Design-Icons.ttf" Url="Content/materialize/font/material-design-icons/Material-Design-Icons.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\material-design-icons\Material-Design-Icons.svg" Url="Content/materialize/font/material-design-icons/Material-Design-Icons.svg" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\material-design-icons\Material-Design-Icons.eot" Url="Content/materialize/font/material-design-icons/Material-Design-Icons.eot" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\font\material-design-icons\LICENSE.txt" Url="Content/materialize/font/material-design-icons/LICENSE.txt" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Thin.woff2" Url="Content/materialize/fonts/roboto/Roboto-Thin.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Thin.woff" Url="Content/materialize/fonts/roboto/Roboto-Thin.woff" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Thin.ttf" Url="Content/materialize/fonts/roboto/Roboto-Thin.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Thin.eot" Url="Content/materialize/fonts/roboto/Roboto-Thin.eot" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Regular.woff2" Url="Content/materialize/fonts/roboto/Roboto-Regular.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Regular.woff" Url="Content/materialize/fonts/roboto/Roboto-Regular.woff" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Regular.ttf" Url="Content/materialize/fonts/roboto/Roboto-Regular.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Regular.eot" Url="Content/materialize/fonts/roboto/Roboto-Regular.eot" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Medium.woff2" Url="Content/materialize/fonts/roboto/Roboto-Medium.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Medium.woff" Url="Content/materialize/fonts/roboto/Roboto-Medium.woff" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Medium.ttf" Url="Content/materialize/fonts/roboto/Roboto-Medium.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Medium.eot" Url="Content/materialize/fonts/roboto/Roboto-Medium.eot" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Light.woff2" Url="Content/materialize/fonts/roboto/Roboto-Light.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Light.woff" Url="Content/materialize/fonts/roboto/Roboto-Light.woff" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Light.ttf" Url="Content/materialize/fonts/roboto/Roboto-Light.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Light.eot" Url="Content/materialize/fonts/roboto/Roboto-Light.eot" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Bold.woff2" Url="Content/materialize/fonts/roboto/Roboto-Bold.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Bold.woff" Url="Content/materialize/fonts/roboto/Roboto-Bold.woff" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Bold.ttf" Url="Content/materialize/fonts/roboto/Roboto-Bold.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\fonts\roboto\Roboto-Bold.eot" Url="Content/materialize/fonts/roboto/Roboto-Bold.eot" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\css\materialize.min.css" Url="Content/materialize/css/materialize.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\materialize\css\materialize.css" Url="Content/materialize/css/materialize.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.min.css.map" Url="Content/bootstrap.min.css.map" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.min.css" Url="Content/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.css.map" Url="Content/bootstrap.css.map" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.css" Url="Content/bootstrap.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-theme.min.css.map" Url="Content/bootstrap-theme.min.css.map" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-theme.min.css" Url="Content/bootstrap-theme.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-theme.css.map" Url="Content/bootstrap-theme.css.map" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-theme.css" Url="Content/bootstrap-theme.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-dialog.less" Url="Content/bootstrap-dialog.less" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-dialog.css" Url="Content/bootstrap-dialog.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

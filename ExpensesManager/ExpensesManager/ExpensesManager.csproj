@@ -1,0 +1,225 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D34CD61-60D8-425D-9FB4-67495B64B295}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExpensesManager</RootNamespace>
+    <AssemblyName>ExpensesManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{216d5955-f09b-4f63-9e8d-e927de6ef325}</AppFeaturePartId>
+    <WspPartId>{8806478a-54a8-44fd-a17d-0659b273865c}</WspPartId>
+    <WorkflowPartId>{aeacd010-eead-4650-9961-d5e8f0978faf}</WorkflowPartId>
+    <CspkgPartId>{9d83f6f3-246a-4d5a-b59d-c5973b43d313}</CspkgPartId>
+    <SqlPackagePartId>{10c0db14-63be-44ea-b4cd-c4367f99f823}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Content\bootstrap-dialog.less" />
+    <None Include="Content\bootstrap-theme.css.map" />
+    <None Include="Content\bootstrap-theme.min.css.map" />
+    <None Include="Content\bootstrap.css.map" />
+    <None Include="Content\bootstrap.min.css.map" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Bold.eot" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Bold.ttf" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Bold.woff" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Bold.woff2" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Light.eot" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Light.ttf" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Light.woff" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Light.woff2" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Medium.eot" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Medium.ttf" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Medium.woff" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Medium.woff2" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Regular.eot" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Regular.ttf" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Regular.woff" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Regular.woff2" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Thin.eot" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Thin.ttf" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Thin.woff" />
+    <None Include="Content\materialize\fonts\roboto\Roboto-Thin.woff2" />
+    <None Include="Content\materialize\font\material-design-icons\Material-Design-Icons.eot" />
+    <None Include="Content\materialize\font\material-design-icons\Material-Design-Icons.ttf" />
+    <None Include="Content\materialize\font\material-design-icons\Material-Design-Icons.woff" />
+    <None Include="Content\materialize\font\material-design-icons\Material-Design-Icons.woff2" />
+    <None Include="Content\materialize\font\roboto\Roboto-Bold.eot" />
+    <None Include="Content\materialize\font\roboto\Roboto-Bold.ttf" />
+    <None Include="Content\materialize\font\roboto\Roboto-Bold.woff" />
+    <None Include="Content\materialize\font\roboto\Roboto-Bold.woff2" />
+    <None Include="Content\materialize\font\roboto\Roboto-Light.eot" />
+    <None Include="Content\materialize\font\roboto\Roboto-Light.ttf" />
+    <None Include="Content\materialize\font\roboto\Roboto-Light.woff" />
+    <None Include="Content\materialize\font\roboto\Roboto-Light.woff2" />
+    <None Include="Content\materialize\font\roboto\Roboto-Medium.eot" />
+    <None Include="Content\materialize\font\roboto\Roboto-Medium.ttf" />
+    <None Include="Content\materialize\font\roboto\Roboto-Medium.woff" />
+    <None Include="Content\materialize\font\roboto\Roboto-Medium.woff2" />
+    <None Include="Content\materialize\font\roboto\Roboto-Regular.eot" />
+    <None Include="Content\materialize\font\roboto\Roboto-Regular.ttf" />
+    <None Include="Content\materialize\font\roboto\Roboto-Regular.woff" />
+    <None Include="Content\materialize\font\roboto\Roboto-Regular.woff2" />
+    <None Include="Content\materialize\font\roboto\Roboto-Thin.eot" />
+    <None Include="Content\materialize\font\roboto\Roboto-Thin.ttf" />
+    <None Include="Content\materialize\font\roboto\Roboto-Thin.woff" />
+    <None Include="Content\materialize\font\roboto\Roboto-Thin.woff2" />
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{0f71e374-5b85-465b-8a44-88ea620948cf}</FeatureId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{92350d0a-482b-4850-97f6-384c399362ab}</FeatureId>
+    </None>
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Lists\Categories\CategoriesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d641e63c-0d56-457c-af34-01c4b19a5ca1}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Categories\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1bc0cc01-e538-419e-a802-5249e41baa48}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Incomsters\IncomstersInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bfffe6bf-7fab-4865-b2d3-61396a73a28f}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Incomsters\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{05e8dc5a-2c29-4ef2-b9a8-252616817224}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Payments\PaymentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d5399127-9e2e-466b-9aa7-48827816a55b}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Payments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a92e53c6-5df8-439c-9542-b3e445b619b9}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{be4c7c22-1d9a-401c-bd70-a30cad9c8470}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\bootstrap-dialog.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\materialize\css\materialize.css" />
+    <Content Include="Content\materialize\css\materialize.min.css" />
+    <Content Include="Content\materialize\font\material-design-icons\LICENSE.txt" />
+    <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.svg" />
+    <Content Include="Elements.xml" />
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Lists\Categories\CategoriesInstance\Elements.xml" />
+    <Content Include="Lists\Categories\Elements.xml" />
+    <Content Include="Lists\Categories\Schema.xml" />
+    <Content Include="Lists\Incomsters\Elements.xml" />
+    <Content Include="Lists\Incomsters\IncomstersInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Incomsters\Schema.xml" />
+    <Content Include="Lists\Payments\Elements.xml" />
+    <Content Include="Lists\Payments\PaymentsInstance\Elements.xml" />
+    <Content Include="Lists\Payments\Schema.xml" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{56b422ef-182e-4162-9c08-ee8a54f99500}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-3.1.1.min.map" />
+    <None Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{10c0db14-63be-44ea-b4cd-c4367f99f823}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\bootstrap-dialog.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\materialize\materialize.js" />
+    <Content Include="Scripts\materialize\materialize.min.js" />
+    <Content Include="Scripts\moment-with-locales.js" />
+    <Content Include="Scripts\moment-with-locales.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d103e78e-35a6-4d2d-8854-0f7506aba597}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{30a3bbd3-b6c7-41e7-825d-a4dcc7d8d6b0}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{6564a44c-d792-475c-a9c8-263fb1752a3d}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{55c61b9f-e6c9-45ff-ba35-e9f8d61f6924}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

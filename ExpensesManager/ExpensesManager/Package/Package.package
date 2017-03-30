@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="6564a44c-d792-475c-a9c8-263fb1752a3d" solutionId="6564a44c-d792-475c-a9c8-263fb1752a3d" resetWebServer="false" sharePointProductVersion="16.0" name="ExpensesManager" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="55c61b9f-e6c9-45ff-ba35-e9f8d61f6924" />
+    <featureReference itemId="0f71e374-5b85-465b-8a44-88ea620948cf" />
+    <featureReference itemId="92350d0a-482b-4850-97f6-384c399362ab" />
+  </features>
+</package>

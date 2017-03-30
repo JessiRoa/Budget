@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Payments" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Payments" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Name">Jessica</Field>
+          <Field Name="Description">This is my payment description</Field>
+          <Field Name="Date">2017-12-12</Field>
+          <Field Name="Category">House</Field>
+          <Field Name="Amount">20000</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Håkan</Field>
+          <Field Name="Description">This is my Håkans payment description</Field>
+          <Field Name="Date">2017-04-12</Field>
+          <Field Name="Category">Food</Field>
+          <Field Name="Amount">25000</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

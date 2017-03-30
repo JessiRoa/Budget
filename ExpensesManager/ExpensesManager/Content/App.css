@@ -1,0 +1,24 @@
+﻿/* Place custom styles below */
+.container {
+    margin-top: 60px;
+}
+
+.modal {
+    background: none;
+    box-shadow: none;
+    height: auto;
+    max-height: inherit;
+}
+
+    .modal .modal-content {
+        padding-top: 0px;
+    }
+
+    .modal .modal-footer {
+        border-top: none;
+        background-color: none;
+    }
+
+    .modal .modal-body > .row {
+        margin-bottom: 0;
+    }

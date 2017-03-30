@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Categories" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Categories" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Name">Food</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Loans</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Healthcare</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Transport</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Clothing</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Fuel</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Pets</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Education</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Fun</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Household</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Family</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Automobile</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Insurance</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Vacations</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Sales</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Taxes</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Salary</Field>
+        </Row>
+        <Row>
+          <Field Name="Name">Others</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>
