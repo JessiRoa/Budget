@@ -2,5 +2,9 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Images">
     <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\income.png" Url="Images/income.png" ReplaceContent="TRUE" />
+    <File Path="Images\payment.png" Url="Images/payment.png" ReplaceContent="TRUE" />
+    <File Path="Images\statisk.png" Url="Images/statisk.png" ReplaceContent="TRUE" />
+    <File Path="Images\sett.png" Url="Images/sett.png" ReplaceContent="TRUE" />
   </Module>
 </Elements>

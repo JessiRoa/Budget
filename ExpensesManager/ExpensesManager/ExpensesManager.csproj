@@ -140,6 +140,11 @@
       <DependentUpon>Feature3.feature</DependentUpon>
     </Content>
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\AppIcon.png" />
+    <Content Include="Images\income.png" />
+    <Content Include="Images\payment.png" />
+    <Content Include="Images\sett.png" />
+    <Content Include="Images\statisk.png" />
     <Content Include="Lists\Categories\CategoriesInstance\Elements.xml" />
     <Content Include="Lists\Categories\Elements.xml" />
     <Content Include="Lists\Categories\Schema.xml" />
@@ -189,9 +194,6 @@
     <Content Include="Content\App.css" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\AppIcon.png">
-      <OpcRelationship>manifest-icon</OpcRelationship>
-    </Content>
     <Content Include="Images\Elements.xml" />
     <None Include="Images\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{30a3bbd3-b6c7-41e7-825d-a4dcc7d8d6b0}</SharePointProjectItemId>
